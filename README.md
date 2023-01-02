@@ -47,7 +47,7 @@
     <title>Yoshi Egg</title>
     
     <!--- Import --->
-    <script type="module" src="https://unpkg.com/yoshi-egg@1.0.0/dist/main.js"></script>
+    <script type="module" src="https://unpkg.com/pixel-yoshi-egg@1.0.0/dist/main.js"></script>
   </head>
 
   <body>
