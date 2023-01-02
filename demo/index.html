@@ -4,12 +4,178 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Yoshi Egg</title>
-    
-    <script type="module" src="../src/yoshi-egg.js"></script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module" src="https://unpkg.com/pixel-yoshi-egg"></script>
   </head>
 
   <body>
-    <yoshi-egg color="red" scale="10" metric="px"></yoshi-egg>
-  </body>
+    
+    <header class="flex place-content-center m-5">
+      <h1 class="mb-4 text-5xl font-extrabold tracking-tight leading-none text-gray-900">Pixel Yoshi egg</h1>
+    </header>
 
+    <main class="mx-8 sm:mx-11 lg:mx-40">
+
+      <!-- Color egg -->
+      <section class="w-full my-8">
+        <h2 class="text-4xl font-extrabold mb-8">Color Yoshi egg</h2>
+
+        <div class="grid lg:grid-cols-3 grid-cols-1 gap-3 px-8 w-full">
+
+          <!-- Red egg -->
+          <div class="bg-white border border-gray-200 rounded-lg shadow-md text-center">
+            <div class="p-4">
+              <h5 class="text-2xl font-bold tracking-tight text-gray-900">Red egg</h5>
+            </div>
+            <div class="grid items-center justify-center">
+              <yoshi-egg color="red" scale="10" metric="px"></yoshi-egg>
+            </div>
+            <div class="py-4 px-4">
+              <code class="w-full block whitespace-pre overflow-x-scroll p-2 bg-gray-300 rounded text-red-800">&lt;yoshi-egg color="red" scale="10" metric="px"&gt;&lt;/yoshi-egg&gt;</code>
+            </div>
+          </div>
+          <!-- End red egg -->
+
+          <!-- Green egg -->
+          <div class="bg-white border border-gray-200 rounded-lg shadow-md text-center">
+            <div class="p-4">
+              <h5 class="text-2xl font-bold tracking-tight text-gray-900">Green egg</h5>
+            </div>
+            <div class="grid items-center justify-center">
+              <yoshi-egg color="green" scale="10" metric="px"></yoshi-egg>
+            </div>
+            <div class="py-4 px-4">
+              <code class="w-full block whitespace-pre overflow-x-scroll p-2 bg-gray-300 rounded text-red-800">&lt;yoshi-egg color="green" scale="10" metric="px"&gt;&lt;/yoshi-egg&gt;</code>
+            </div>
+          </div>
+          <!-- End green egg -->
+
+          <!-- Blue egg -->
+          <div class="bg-white border border-gray-200 rounded-lg shadow-md text-center">
+            <div class="p-4">
+                <h5 class="text-2xl font-bold tracking-tight text-gray-900">Blue egg</h5>
+            </div>
+            <div class="grid items-center justify-center">
+              <yoshi-egg color="#38cedd" scale="10" metric="px"></yoshi-egg>
+            </div>
+
+            <div class="py-4 px-4">
+              <code class="w-full block whitespace-pre overflow-x-scroll p-2 bg-gray-300 rounded text-red-800">&lt;yoshi-egg color="#38cedd" scale="10" metric="px"&gt;&lt;/yoshi-egg&gt;</code>
+            </div>
+          </div>
+          <!-- End blue egg -->
+
+        </div>
+      </section>
+      <!-- End color egg -->
+
+      <!-- Scale egg -->
+      <section class="w-full my-8">
+        <h2 class="text-4xl font-extrabold mb-8">Scale Yoshi egg</h2>
+
+        <div class="grid lg:grid-cols-3 grid-cols-1 gap-3 px-8 w-full">
+
+          <!-- Scale 10 egg -->
+          <div class="bg-white border border-gray-200 rounded-lg shadow-md text-center">
+            <div class="p-4">
+              <h5 class="text-2xl font-bold tracking-tight text-gray-900">Scale 10 egg</h5>
+            </div>
+            <div class="grid items-center justify-center">
+              <yoshi-egg color="red" scale="10" metric="px"></yoshi-egg>
+            </div>
+            <div class="py-4 px-4">
+              <code class="w-full block whitespace-pre overflow-x-scroll p-2 bg-gray-300 rounded text-red-800">&lt;yoshi-egg color="red" scale="10" metric="px"&gt;&lt;/yoshi-egg&gt;</code>
+            </div>
+          </div>
+          <!-- End scale 10 egg -->
+
+          <!-- Scale 15 egg -->
+          <div class="bg-white border border-gray-200 rounded-lg shadow-md text-center">
+            <div class="p-4">
+              <h5 class="text-2xl font-bold tracking-tight text-gray-900">Scale 15 egg</h5>
+            </div>
+            <div class="grid items-center justify-center">
+              <yoshi-egg color="green" scale="15" metric="px"></yoshi-egg>
+            </div>
+            <div class="py-4 px-4">
+              <code class="w-full block whitespace-pre overflow-x-scroll p-2 bg-gray-300 rounded text-red-800">&lt;yoshi-egg color="green" scale="15" metric="px"&gt;&lt;/yoshi-egg&gt;</code>
+            </div>
+          </div>
+          <!-- End scale 15 egg -->
+
+          <!-- Scale 20 egg -->
+          <div class="bg-white border border-gray-200 rounded-lg shadow-md text-center">
+            <div class="p-4">
+                <h5 class="text-2xl font-bold tracking-tight text-gray-900">Scale 20 egg</h5>
+            </div>
+            <div class="grid items-center justify-center">
+              <yoshi-egg color="#38cedd" scale="20" metric="px"></yoshi-egg>
+            </div>
+
+            <div class="py-4 px-4">
+              <code class="w-full block whitespace-pre overflow-x-scroll p-2 bg-gray-300 rounded text-red-800">&lt;yoshi-egg color="#38cedd" scale="20" metric="px"&gt;&lt;/yoshi-egg&gt;</code>
+            </div>
+          </div>
+          <!-- End scale 20 egg -->
+
+        </div>
+      </section>
+      <!-- End scale egg -->
+
+      <!-- Metric egg -->
+      <section class="w-full my-8">
+        <h2 class="text-4xl font-extrabold mb-8">Metric Yoshi egg</h2>
+
+        <div class="grid lg:grid-cols-3 grid-cols-1 gap-3 px-8 w-full">
+
+          <!-- Metric px egg -->
+          <div class="bg-white border border-gray-200 rounded-lg shadow-md text-center">
+            <div class="p-4">
+              <h5 class="text-2xl font-bold tracking-tight text-gray-900">Metric px egg</h5>
+            </div>
+            <div class="grid items-center justify-center">
+              <yoshi-egg color="red" scale="1" metric="px"></yoshi-egg>
+            </div>
+            <div class="py-4 px-4">
+              <code class="w-full block whitespace-pre overflow-x-scroll p-2 bg-gray-300 rounded text-red-800">&lt;yoshi-egg color="red" scale="1" metric="px"&gt;&lt;/yoshi-egg&gt;</code>
+            </div>
+          </div>
+          <!-- End metric px egg -->
+
+          <!-- Metric rem egg -->
+          <div class="bg-white border border-gray-200 rounded-lg shadow-md text-center">
+            <div class="p-4">
+              <h5 class="text-2xl font-bold tracking-tight text-gray-900">Metric rem egg</h5>
+            </div>
+            <div class="grid items-center justify-center">
+              <yoshi-egg color="green" scale="1" metric="rem"></yoshi-egg>
+            </div>
+            <div class="py-4 px-4">
+              <code class="w-full block whitespace-pre overflow-x-scroll p-2 bg-gray-300 rounded text-red-800">&lt;yoshi-egg color="green" scale="1" metric="rem"&gt;&lt;/yoshi-egg&gt;</code>
+            </div>
+          </div>
+          <!-- End metric rem egg -->
+
+          <!-- Metric vh egg -->
+          <div class="bg-white border border-gray-200 rounded-lg shadow-md text-center">
+            <div class="p-4">
+                <h5 class="text-2xl font-bold tracking-tight text-gray-900">Metric vh egg</h5>
+            </div>
+            <div class="grid items-center justify-center">
+              <yoshi-egg color="#38cedd" scale="1" metric="vh"></yoshi-egg>
+            </div>
+
+            <div class="py-4 px-4">
+              <code class="w-full block whitespace-pre overflow-x-scroll p-2 bg-gray-300 rounded text-red-800">&lt;yoshi-egg color="#38cedd" scale="1" metric="vh"&gt;&lt;/yoshi-egg&gt;</code>
+            </div>
+          </div>
+          <!-- End scale 20 egg -->
+
+        </div>
+      </section>
+      <!-- End scale egg -->
+
+    </main>
+  </body>
 </html>
