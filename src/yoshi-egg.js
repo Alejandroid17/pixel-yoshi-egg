@@ -24,8 +24,6 @@ class YoshiEgg extends HTMLElement {
     const containerHeight = this.pixelPicture.length * scale;
     const containerWidth = Math.max(...this.pixelPicture.map(row => row.length)) * scale;
 
-    console.log(this.pixelPicture)
-
     const boxShadow = this.pixelPicture
       .reduce(
         (acc, row, rowIndex) =>
