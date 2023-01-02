@@ -9,8 +9,8 @@
 
 <div align="center">
 
-[![License](https://img.shields.io/github/license/Alejandroid17/yoshi-egg?style=flat-square)](https://github.com/Alejandroid17/yoshi-egg/blob/main/LICENSE)
-[![Demo](https://img.shields.io/badge/demos-🚀-yellow.svg?style=flat-square)](https://github.com/Alejandroid17/yoshi-egg/tree/main/demo)
+[![License](https://img.shields.io/github/license/Alejandroid17/pixel-yoshi-egg?style=flat-square)](https://github.com/Alejandroid17/yoshi-egg/blob/main/LICENSE)
+[![Demo](https://img.shields.io/badge/demos-🚀-yellow.svg?style=flat-square)](https://alejandroid17.github.io/pixel-yoshi-egg/demo/)
 
 <br />
 </div>
