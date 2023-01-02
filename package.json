@@ -1,5 +1,5 @@
 {
-  "name": "yoshi-egg",
+  "name": "pixel-yoshi-egg",
   "version": "1.0.0",
   "description": "A Yoshi Egg built with pixels.",
   "main": "dist/main.js",
