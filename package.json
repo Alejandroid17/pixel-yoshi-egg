@@ -1,6 +1,6 @@
 {
   "name": "pixel-yoshi-egg",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Yoshi Egg built with pixels.",
   "main": "dist/main.js",
   "source": "src/yoshi-egg.js",
