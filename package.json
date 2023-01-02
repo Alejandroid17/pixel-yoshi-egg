@@ -1,0 +1,38 @@
+{
+  "name": "yoshi-egg",
+  "version": "1.0.0",
+  "description": "A Yoshi Egg built with pixels.",
+  "main": "dist/main.js",
+  "source": "src/yoshi-egg.js",
+  "scripts": {
+    "dev": "parcel demo/index.html",
+    "build": "parcel build",
+    "publish": "clean-publish --fields targets"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Alejandroid17/yoshi-egg"
+  },
+  "keywords": [
+    "pixel",
+    "art",
+    "yoshi",
+    "pixel-art"
+  ],
+  "author": "@Alejandroid17",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-publish": "4.0.2",
+    "parcel": "2.8.2"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "targets": {
+    "main": {
+      "optimize": true
+    }
+  }
+}
