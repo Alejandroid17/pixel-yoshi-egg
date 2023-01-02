@@ -21,6 +21,10 @@ class YoshiEgg extends HTMLElement {
     const color = this.getAttribute("color") || this.DEFAULT_COLOR;
     const metric = this.getAttribute("metric") || this.DEFAULT_METRIC;
     const scale = this.getAttribute("scale") || this.DEFAULT_SCALE;
+    const containerHeight = this.pixelPicture.length * scale;
+    const containerWidth = Math.max(...this.pixelPicture.map(row => row.length)) * scale;
+
+    console.log(this.pixelPicture)
 
     const boxShadow = this.pixelPicture
       .reduce(
@@ -36,7 +40,12 @@ class YoshiEgg extends HTMLElement {
       .join(", ");
 
     return /* css */ `
-      .container {
+      .pixel-container {
+        width: ${containerWidth}${metric};
+        height: ${containerHeight}${metric};
+      }
+
+      .pixel {
         width: ${scale}${metric};
         height: ${scale}${metric};
         box-shadow: ${boxShadow};
@@ -47,7 +56,9 @@ class YoshiEgg extends HTMLElement {
   render() {
     this.shadowRoot.innerHTML = /* html */ `
       <style>${this.styles()}</style>
-      <div class="container"></div>
+      <div class="pixel-container">
+        <div class="pixel"></div>
+      </div>
     `;
   }
 
